@@ -1,0 +1,104 @@
+@font-face {font-family: Fredoka ;src: url("./font/FredokaOne-Regular.ttf");}
+
+body{
+  margin : 0px;
+  font-family: Fredoka;
+  font-variant-ligatures: no-common-ligatures;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transform: scale(1);
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/header.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+h1{
+  font-size: 7vh;
+}
+
+h3{
+  font-size: 5vh;
+}
+
+.invisible{
+  opacity: 0; 
+}
+
+.brume{
+  animation: blurOut 2s linear;
+  animation-fill-mode: forwards;
+}
+
+span{
+  cursor: pointer;
+}
+
+#instruction{
+  animation: blurIn 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+#firstProject {  
+  cursor: default;
+  font-size: 2vh;
+  display: none;
+  opacity: 0;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+@keyframes blurOut{
+  0%{
+    filter: blur(10px);
+    opacity: 1;
+  }
+  60%{
+    filter: blur(25px);
+    opacity: 0,5;
+  }
+  100%{
+    filter: blur(40px);
+    opacity:0;
+    cursor: default;
+  }
+}
+
+@keyframes blurIn{
+  0%{
+    filter: blur(30px);
+    opacity:0;
+    cursor: default;
+  }
+  60%{
+    filter: blur(15px);
+    opacity: 0,5;
+  }
+  100%{
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes zoom{
+  0%{
+    transform: scale(1);
+  }
+  40%{
+    transform: scale(2.5);
+  }
+  100%{
+    transform: scale(3.5);
+  }
+}
