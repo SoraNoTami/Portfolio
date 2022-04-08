@@ -53,10 +53,14 @@ span{
   top: 0%;
   right: 0%
 }
-/* #instruction{
-  animation: blurIn 0.5s linear;
+
+#instruction{
+  animation: blurIn 1.5s linear;
   animation-fill-mode: forwards;
-} */
+  position: absolute;
+  top: 70%;
+  right: 41.5%
+}
 
 #projects{
   position: absolute;
@@ -65,12 +69,66 @@ span{
 #firstProject {  
   cursor: default;
   font-size: 2vh;
-  display: none;
   opacity: 0;
   transform: translate(-50%,-50%);
   position: absolute;
   top: 40%;
+  left: 49.5%;
+}
+
+/* #pictureFirstProject{
+  position: absolute;
+  display: none;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  border: 20px;
+  border-color: white ;
+  width: 100px;
   left: 50%;
+  top: 50%
+} */
+
+.swapProject{
+  display: none;
+  background-color: rgb(0, 0, 0, 0);
+  border: 5px;
+  border-color: black;
+}
+
+#rightButton {
+  width: 15px;
+	height: 15px;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 63%;
+  border-radius: 50%;
+}
+
+#leftButton {
+  width: 15px;
+	height: 15px;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  right: 62%;
+  border-radius: 50%;
+}
+
+#arrowLeft{
+  width: 10px;
+	height: 10px;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+}
+
+#arrowRight{
+  width: 10px;
+	height: 10px;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
 }
 
 @keyframes blurOut{

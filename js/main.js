@@ -8,6 +8,12 @@ $("#skip").click(function () {
         $("#firstProject").css("animation", "blurIn 2s linear");
         $("#firstProject").css("animation-fill-mode", "forwards");
         $("#firstProject").css("cursor", "text");
+        $(".swapProject").css("animation", "blurIn 2s linear")
+        $(".swapProject").css("display", "block");
+        $(".swapProject").css("animation-fill-mode", "forwards");
+        $("#pictureFirstProject").css("display", "block");
+        $("#pictureFirstProject").css("animation", "blurIn 2s linear");
+        $("#pictureFirstProject").css("animation-fill-mode");
     }
 })
 
@@ -21,6 +27,9 @@ $("span").mouseenter(function () {
         $("#firstProject").css("animation", "blurIn 2s linear");
         $("#firstProject").css("animation-fill-mode", "forwards");
         $("#firstProject").css("cursor", "text");
+        $(".swapProject").css("animation", "blurIn 2s linear")
+        $(".swapProject").css("display", "block");
+        $(".swapProject").css("animation-fill-mode", "forwards");
     }
 })
 
