@@ -66,6 +66,15 @@ span{
   position: absolute;
 }
 
+.linkSite{
+  font-size: 6px;
+  /* display: none; */
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 60%;
+  left: 45%
+}
+
 #firstProject {  
   cursor: default;
   font-size: 2vh;
@@ -76,17 +85,37 @@ span{
   left: 49.5%;
 }
 
-/* #pictureFirstProject{
-  position: absolute;
+#linkFirstProject{
+  display: none;
+}
+
+#pictureFirstProject{
+  width: 150px;
+  opacity: 0;
   display: none;
   transform: translate(-50%,-50%);
+  position: absolute;
+  left: 45%;
+  top: 51%;
+  border: solid;
+  border-radius: 2vh;
+  border-width: 2px ;
+  border-color: aliceblue;
+}
+
+#textFirstProject{
+  font-size: 6px;
+  width: 50px;
   opacity: 0;
-  border: 20px;
-  border-color: white ;
-  width: 100px;
-  left: 50%;
-  top: 50%
-} */
+  display: none;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  right: 38%;
+  top: 51%;
+  padding-top: 20px;
+}
+
+
 
 .swapProject{
   display: none;
@@ -153,10 +182,6 @@ span{
     opacity:0;
     cursor: default;
   }
-  60%{
-    filter: blur(15px);
-    opacity: 0,5;
-  }
   100%{
     filter: blur(0px);
     opacity: 1;
@@ -166,9 +191,6 @@ span{
 @keyframes zoom{
   0%{
     transform: scale(1);
-  }
-  40%{
-    transform: scale(2.5);
   }
   100%{
     transform: scale(3.5);

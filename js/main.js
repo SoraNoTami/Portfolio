@@ -11,9 +11,17 @@ $("#skip").click(function () {
         $(".swapProject").css("animation", "blurIn 2s linear")
         $(".swapProject").css("display", "block");
         $(".swapProject").css("animation-fill-mode", "forwards");
-        $("#pictureFirstProject").css("display", "block");
-        $("#pictureFirstProject").css("animation", "blurIn 2s linear");
-        $("#pictureFirstProject").css("animation-fill-mode");
+        setTimeout(() => {
+            $("#pictureFirstProject").css("display", "block");
+            $("#pictureFirstProject").css("animation", "blurIn 1s linear");
+            $("#pictureFirstProject").css("animation-fill-mode", "forwards");
+            $("#linkFirstProject").css("display", "block");
+            $("#linkFirstProject").css("animation", "blurIn 1s linear");
+            $("#linkFirstProject").css("animation-fill-mode", "forwards");
+            $("#textFirstProject").css("display", "block");
+            $("#textFirstProject").css("animation", "blurIn 2s linear");
+            $("#textFirstProject").css("animation-fill-mode", "forwards");
+        }, 2000)
     }
 })
 
@@ -21,7 +29,7 @@ $("span").mouseenter(function () {
     $(this).addClass("brume");
     if ($("span.brume").length === $("span").length) {
         // Si tout les spans ont disparu alors:
-        $("body").css('animation', 'zoom forwards 1.25s linear');
+        $("body").css('animation', 'zoom forwards 1s linear');
         $("body").css('overflow', 'hidden');
         $("#firstProject").css("display", "block");
         $("#firstProject").css("animation", "blurIn 2s linear");
@@ -30,6 +38,17 @@ $("span").mouseenter(function () {
         $(".swapProject").css("animation", "blurIn 2s linear")
         $(".swapProject").css("display", "block");
         $(".swapProject").css("animation-fill-mode", "forwards");
+        setTimeout(() => {
+            $("#pictureFirstProject").css("display", "block");
+            $("#pictureFirstProject").css("animation", "blurIn 1s linear");
+            $("#pictureFirstProject").css("animation-fill-mode", "forwards");
+            $("#linkFirstProject").css("display", "block");
+            $("#linkFirstProject").css("animation", "blurIn 1s linear");
+            $("#linkFirstProject").css("animation-fill-mode", "forwards");
+            $("#textFirstProject").css("display", "block");
+            $("#textFirstProject").css("animation", "blurIn 2s linear");
+            $("#textFirstProject").css("animation-fill-mode", "forwards");
+        }, 2000)
     }
 })
 
