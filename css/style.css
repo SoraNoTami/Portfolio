@@ -124,6 +124,14 @@ span{
   border-color: black;
 }
 
+#firstRightText{
+  position: absolute;
+  display: none;
+  font-size: 5px;
+  top: 47%;
+  left: 62%;
+}
+
 #rightButton {
   width: 15px;
 	height: 15px;
@@ -132,6 +140,14 @@ span{
   top: 50%;
   left: 63%;
   border-radius: 50%;
+}
+
+#firstLeftText{
+  position: absolute;
+  display: none;
+  font-size: 5px;
+  top: 47%;
+  right: 62%;
 }
 
 #leftButton {
