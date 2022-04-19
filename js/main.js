@@ -19,13 +19,13 @@ $("#skip").click(function () {
             $("#linkFirstProject").css("animation", "blurIn 1s linear");
             $("#linkFirstProject").css("animation-fill-mode", "forwards");
             $("#firstLeftText").css("display", "block");
-            $("#firstLeftText").css("animation", "blurIn 1s linear");
+            $("#firstLeftText").css("animation", "blurIn 1.5s linear");
             $("#firstLeftText").css("animation-fill-mode", "forwards");
             $("#firstRightText").css("display", "block");
             $("#firstRightText").css("animation", "blurIn 1.5s linear");
             $("#firstRightText").css("animation-fill-mode", "forwards");
             $("#textFirstProject").css("display", "block");
-            $("#textFirstProject").css("animation", "blurIn 1.5s linear");
+            $("#textFirstProject").css("animation", "blurIn 1s linear");
             $("#textFirstProject").css("animation-fill-mode", "forwards");
         }, 2000)
     }
@@ -52,13 +52,13 @@ $("span").mouseenter(function () {
             $("#linkFirstProject").css("animation", "blurIn 1s linear");
             $("#linkFirstProject").css("animation-fill-mode", "forwards");
             $("#firstLeftText").css("display", "block");
-            $("#firstLeftText").css("animation", "blurIn 1s linear");
+            $("#firstLeftText").css("animation", "blurIn 1.5s linear");
             $("#firstLeftText").css("animation-fill-mode", "forwards");
             $("#firstRightText").css("display", "block");
             $("#firstRightText").css("animation", "blurIn 1.5s linear");
             $("#firstRightText").css("animation-fill-mode", "forwards");
             $("#textFirstProject").css("display", "block");
-            $("#textFirstProject").css("animation", "blurIn 1.5s linear");
+            $("#textFirstProject").css("animation", "blurIn 1s linear");
             $("#textFirstProject").css("animation-fill-mode", "forwards");
         }, 2000)
     }
