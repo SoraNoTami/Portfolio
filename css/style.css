@@ -132,7 +132,7 @@ span{
   left: 62%;
 }
 
-#rightButton {
+#firstRightButton {
   width: 0.938rem;
 	height: 0.938rem;
   transform: translate(-50%,-50%);
@@ -150,7 +150,7 @@ span{
   right: 62%;
 }
 
-#leftButton {
+#firstLeftButton {
   width: 0.938rem;
 	height: 0.938rem;
   transform: translate(-50%,-50%);
