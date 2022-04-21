@@ -20,6 +20,7 @@ header{
   align-items: center;
   justify-content: center;
   background-image: url("../img/header.jpg");
+  transition: all 2s linear;
   height: 100vh;
   background-size: cover;
   background-position-x: center;
@@ -115,13 +116,32 @@ span{
   padding-top: 1.25rem;
 }
 
-
-
-.swapProject{
+.swapProjectLeft{
   display: none;
   background-color: rgb(0, 0, 0, 0);
   border: 0.313rem;
   border-color: black;
+  width: 0.938rem;
+	height: 0.938rem;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  right: 62%;
+  border-radius: 50%;
+}
+
+.swapProjectRight{
+  display: none;
+  background-color: rgb(0, 0, 0, 0);
+  border: 0.313rem;
+  border-color: black;
+  width: 0.938rem;
+	height: 0.938rem;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 63%;
+  border-radius: 50%;
 }
 
 #firstRightText{
@@ -132,16 +152,6 @@ span{
   left: 62%;
 }
 
-#firstRightButton {
-  width: 0.938rem;
-	height: 0.938rem;
-  transform: translate(-50%,-50%);
-  position: absolute;
-  top: 50%;
-  left: 63%;
-  border-radius: 50%;
-}
-
 #firstLeftText{
   position: absolute;
   display: none;
@@ -150,15 +160,6 @@ span{
   right: 62%;
 }
 
-#firstLeftButton {
-  width: 0.938rem;
-	height: 0.938rem;
-  transform: translate(-50%,-50%);
-  position: absolute;
-  top: 50%;
-  right: 62%;
-  border-radius: 50%;
-}
 
 #arrowLeft{
   width: 0.625rem;
@@ -180,10 +181,6 @@ span{
   0%{
     filter: blur(0.625rem);
     opacity: 1;
-  }
-  60%{
-    filter: blur(1.563rem);
-    opacity: 0,5;
   }
   100%{
     filter: blur(2.5rem);
@@ -212,3 +209,12 @@ span{
     transform: scale(3.5);
   }
 }
+
+/* @keyframes backgroundToProfile{
+  0%{
+    background-image: url("../img/header.jpg");
+  }
+  100%{
+    background-image: url("../img/profile.png")
+  }
+} */
