@@ -96,7 +96,7 @@ $("#firstLeftButton").click(function () {
     $("#firstRightButton").css("animation", "blurOut 2s linear")
     $("#firstRightButton").css("display", "none");
     $("#firstRightButton").css("animation-fill-mode", "forwards");
-    $("header").css("background-image", "url('/img/profile.png')")
+    $("header").css("background-image", "url('/Portfolio/img/profile.png')")
     $("header").css("animation-fill-mode", "forwards")
     setTimeout(() => {
         $("#monProfil").css("display", "block");
@@ -129,7 +129,7 @@ $("#profilRightButton").click(function () {
     $("#profilRightText").css("animation", "blurOut 1.5s linear");
     $("#profilRightText").css("display", "none");
     $("#profilRightText").css("animation-fill-mode", "forwards");
-    $("header").css("background-image", "url('/img/header.jpg')")
+    $("header").css("background-image", "url('/Portfolio/img/header.jpg')")
     $("header").css("animation-fill-mode", "forwards")
     setTimeout(() => {
         $("#firstProject").css("display", "block");
@@ -184,7 +184,7 @@ $("#firstRightButton").click(function () {
     $("#firstRightButton").css("animation", "blurOut 2s linear")
     $("#firstRightButton").css("display", "block");
     $("#firstRightButton").css("animation-fill-mode", "forwards");
-    $("header").css("background-image", "url('/img/2ndProject.jpg')")
+    $("header").css("background-image", "url('/Portfolio/img/2ndProject.jpg')")
     $("header").css("animation-fill-mode", "forwards")
     setTimeout(() => {
         $("#secondProject").css("display", "block");
@@ -239,7 +239,7 @@ $("#secondLeftButton").click(function () {
     $("#secondRightButton").css("animation", "blurOut 2s linear")
     $("#secondRightButton").css("display", "none");
     $("#secondRightButton").css("animation-fill-mode", "forwards");
-    $("header").css("background-image", "url('/img/header.jpg')")
+    $("header").css("background-image", "url('/Portfolio/img/header.jpg')")
     $("header").css("animation-fill-mode", "forwards")
     setTimeout(() => {
         $("#firstProject").css("display", "block");
