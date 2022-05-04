@@ -269,6 +269,3 @@ $("#secondLeftButton").click(function () {
         $("#textFirstProject").css("animation-fill-mode", "forwards");
     }, 1250)
 })
-
-
-
