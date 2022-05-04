@@ -79,7 +79,7 @@ span {
   left: 45%
 }
 
-#firstProject {
+.titleProject {
   cursor: default;
   font-size: 2vh;
   opacity: 0;
@@ -89,7 +89,7 @@ span {
   left: 49.5%;
 }
 
-#linkFirstProject {
+.linkSite {
   display: none;
 }
 
@@ -104,10 +104,17 @@ span {
   border: solid;
   border-radius: 2vh;
   border-width: 0.125rem;
+}
+
+#pictureSecondProject {
+  border-color: black;
+}
+
+#pictureFirstProject {
   border-color: aliceblue;
 }
 
-#textFirstProject {
+.textProject {
   font-size: 0.375rem;
   width: 3.125rem;
   opacity: 0;

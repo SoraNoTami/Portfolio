@@ -215,5 +215,60 @@ $("#firstRightButton").click(function () {
     }, 1250)
 })
 
+$("#secondLeftButton").click(function () {
+    $("#secondProject").css("animation", "blurOut 2s linear");
+    $("#secondProject").css("cursor", "default");
+    $("#pictureSecondProject").css("display", "none");
+    $("#pictureSecondProject").css("animation", "blurOut 1s linear");
+    $("#pictureSecondProject").css("animation-fill-mode", "forwards");
+    $("#linkSecondProject").css("display", "none");
+    $("#linkSecondProject").css("animation", "blurOut 1s linear");
+    $("#linkSecondProject").css("animation-fill-mode", "forwards");
+    $("#secondLeftText").css("display", "none");
+    $("#secondLeftText").css("animation", "blurOut 1.5s linear");
+    $("#secondLeftText").css("animation-fill-mode", "forwards");
+    $("#secondRightText").css("display", "none");
+    $("#secondRightText").css("animation", "blurOut 1.5s linear");
+    $("#secondRightText").css("animation-fill-mode", "forwards");
+    $("#textSecondProject").css("display", "none");
+    $("#textSecondProject").css("animation", "blurOut 1s linear");
+    $("#textSecondProject").css("animation-fill-mode", "forwards");
+    $("#secondLeftButton").css("animation", "blurOut 2s linear")
+    $("#secondLeftButton").css("display", "none");
+    $("#secondLeftButton").css("animation-fill-mode", "forwards");
+    $("#secondRightButton").css("animation", "blurOut 2s linear")
+    $("#secondRightButton").css("display", "none");
+    $("#secondRightButton").css("animation-fill-mode", "forwards");
+    $("header").css("background-image", "url('/img/header.jpg')")
+    $("header").css("animation-fill-mode", "forwards")
+    setTimeout(() => {
+        $("#firstProject").css("display", "block");
+        $("#firstProject").css("animation", "blurIn 1s linear");
+        $("#firstProject").css("animation-fill-mode", "forwards");
+        $("#firstProject").css("cursor", "text");
+        $("#firstLeftButton").css("animation", "blurIn 1s linear")
+        $("#firstLeftButton").css("display", "block");
+        $("#firstLeftButton").css("animation-fill-mode", "forwards");
+        $("#firstRightButton").css("animation", "blurIn 1s linear")
+        $("#firstRightButton").css("display", "block");
+        $("#firstRightButton").css("animation-fill-mode", "forwards");
+        $("#pictureFirstProject").css("display", "block");
+        $("#pictureFirstProject").css("animation", "blurIn 1.5s linear");
+        $("#pictureFirstProject").css("animation-fill-mode", "forwards");
+        $("#linkFirstProject").css("display", "block");
+        $("#linkFirstProject").css("animation", "blurIn 1.5s linear");
+        $("#linkFirstProject").css("animation-fill-mode", "forwards");
+        $("#firstLeftText").css("display", "block");
+        $("#firstLeftText").css("animation", "blurIn 2s linear");
+        $("#firstLeftText").css("animation-fill-mode", "forwards");
+        $("#firstRightText").css("display", "block");
+        $("#firstRightText").css("animation", "blurIn 2s linear");
+        $("#firstRightText").css("animation-fill-mode", "forwards");
+        $("#textFirstProject").css("display", "block");
+        $("#textFirstProject").css("animation", "blurIn 1.5s linear");
+        $("#textFirstProject").css("animation-fill-mode", "forwards");
+    }, 1250)
+})
+
 
 
