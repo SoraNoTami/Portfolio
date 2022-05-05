@@ -125,6 +125,9 @@ $("#firstLeftButton").click(function () {
         $("#profilRightText").css("display", "block");
         $("#profilRightText").css("animation", "blurIn 2s linear");
         $("#profilRightText").css("animation-fill-mode", "forwards");
+        $(".profilText").css("display", "block");
+        $(".profilText").css("animation", "blurIn 2s linear")
+        $(".profilText").css("animation-fill-mode", "forwards")
     }, 500)
 })
 

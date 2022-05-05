@@ -188,6 +188,28 @@ span {
   top: 50%;
 }
 
+.profilText {
+  font-size: 0.313rem;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: none;
+}
+
+#profilText1 {
+  left: 50%;
+  top: 45%;
+}
+
+#profilText2 {
+  left: 50%;
+  top: 50%;
+}
+
+#profilText3 {
+  left: 50%;
+  top: 55%;
+}
+
 #monProfil {
   cursor: default;
   font-size: 2vh;
