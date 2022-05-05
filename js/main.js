@@ -194,9 +194,9 @@ $("#firstRightButton").click(function () {
         $("#secondLeftButton").css("animation", "blurIn 1s linear")
         $("#secondLeftButton").css("display", "block");
         $("#secondLeftButton").css("animation-fill-mode", "forwards");
-        $("#secondRightButton").css("animation", "blurIn 1s linear")
-        $("#secondRightButton").css("display", "block");
-        $("#secondRightButton").css("animation-fill-mode", "forwards");
+        // $("#secondRightButton").css("animation", "blurIn 1s linear")
+        // $("#secondRightButton").css("display", "block");
+        // $("#secondRightButton").css("animation-fill-mode", "forwards");
         $("#pictureSecondProject").css("display", "block");
         $("#pictureSecondProject").css("animation", "blurIn 1.5s linear");
         $("#pictureSecondProject").css("animation-fill-mode", "forwards");
