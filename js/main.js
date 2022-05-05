@@ -1,3 +1,16 @@
+function load() {
+    this.length=load.arguments.length;
+    for (var i=0;i<this.length;i++) {
+        this[i+1]=new Image();
+        this[i+1].src=load.arguments[i];
+    }
+}
+
+function loadingPage(){
+    var temp=new load('/Portfolio/img/profile.png','/Portfolio/img/header.jpg','/Portfolio/img/2ndProject.jpg')
+}
+
+
 $("#skip").click(function () {
     $("span").addClass("brume")
     if ($("span.brume").length === $("span").length) {
