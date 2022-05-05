@@ -206,9 +206,9 @@ $("#firstRightButton").click(function () {
         $("#secondLeftText").css("display", "block");
         $("#secondLeftText").css("animation", "blurIn 2s linear");
         $("#secondLeftText").css("animation-fill-mode", "forwards");
-        $("#secondRightText").css("display", "block");
-        $("#secondRightText").css("animation", "blurIn 2s linear");
-        $("#secondRightText").css("animation-fill-mode", "forwards");
+        // $("#secondRightText").css("display", "block");
+        // $("#secondRightText").css("animation", "blurIn 2s linear");
+        // $("#secondRightText").css("animation-fill-mode", "forwards");
         $("#textSecondProject").css("display", "block");
         $("#textSecondProject").css("animation", "blurIn 1.5s linear");
         $("#textSecondProject").css("animation-fill-mode", "forwards");
