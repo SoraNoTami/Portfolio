@@ -145,6 +145,8 @@ $("#profilRightButton").click(function () {
     $("#profilRightText").css("animation", "blurOut 1.5s linear");
     $("#profilRightText").css("display", "none");
     $("#profilRightText").css("animation-fill-mode", "forwards");
+    $(".profilText").css("display", "none");
+    $(".profilText").css("animation", "blurOut 1.5s linear")
     $("header").css("background-image", "url('/Portfolio/img/header.jpg')")
     $("header").css("animation-fill-mode", "forwards")
     setTimeout(() => {
